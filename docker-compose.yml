@@ -2,7 +2,7 @@ version: '2'
 
 services:
   tester:
-    image: dimadockerid1234/my-docker-hub-repo:main@sha256:1a55d90c5596
+    image: dimadockerid1234/my-docker-hub-repo:1.0.0@sha256:5dd9c6c64611e7f2a6eaab984b1b6727f1ef69999417664509884e834041e427
     ports:
       - "9090:9090"
     environment:
