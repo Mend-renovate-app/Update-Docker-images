@@ -4,5 +4,11 @@
     "config:recommended"
   ],
   "prHourlyLimit": 0,
-  "prConcurrentLimit": 20
+  "prConcurrentLimit": 20,
+  "packageRules": [
+   {
+     "matchDatasources": ["docker"],
+     "versioning": "loose",
+     "allowedVersions": "/\\d+-\\w{40}/"
+   }
 }
