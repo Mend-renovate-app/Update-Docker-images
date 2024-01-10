@@ -11,4 +11,5 @@
      "versioning": "loose",
      "allowedVersions": "/\\d+-\\w{40}/"
    }
+  ]
 }
